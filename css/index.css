@@ -1,0 +1,124 @@
+:root {
+    --bg_h: #1d2021;
+    --bg: #282828;
+    --bg_s: #32302f;
+    --bg1: #3c3836;
+    --bg2: #504945;
+    --bg3: #665c54;
+    --bg4: #7c6f64;
+
+    --fg: #fbf1c7;
+    --fg1: #ebdbb2;
+    --fg2: #d5c4a1;
+    --fg3: #bdae93;
+    --fg4: #a89984;
+
+    --red: #fb4934;
+    --green: #b8bb26;
+    --yellow: #fabd2f;
+    --blue: #83a598;
+    --purple: #d3869b;
+    --aqua: #8ec07c;
+    --gray: #928374;
+    --orange: #fe8019;
+
+    --red-dim: #cc2412;
+    --green-dim: #98971a;
+    --yellow-dim: #d79921;
+    --blue-dim: #458588;
+    --purple-dim: #b16286;
+    --aqua-dim: #689d6a;
+    --gray-dim: #a89984;
+    --orange-dim: #d65d0e;
+}
+
+body {
+    max-width: 75%;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: var(--bg) !important;
+    color: var(--fg);
+}
+
+.calibre1 {
+    padding: 100px;
+    background-color: var(--bg);
+}
+
+#otherbooks,
+.opener {
+    display: none;
+}
+
+.highlight,
+pre {
+    background-color: var(--bg_h);
+}
+
+a,
+.linkurl {
+    color: var(--fg3);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+.linkurl:hover {
+    text-decoration: underline;
+}
+
+body > a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--bg1);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+body > a:hover {
+    background-color: var(--bg2);
+}
+
+body > a:nth-child(odd) {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+body > a:nth-child(even) {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.s1, .o, .mi {
+    color: var(--fg1) !important;
+}
+
+.sd, .c1 {
+    color: var(--fg4) !important;
+}
+
+.nn, .nf {
+    color: var(--blue) !important;
+}
+
+.k {
+    color: var(--yellow) !important;
+}
+
+.nb, .kn, .kc {
+    color: var(--green) !important;
+}
+
+.ow {
+    color: var(--purple) !important;
+}
